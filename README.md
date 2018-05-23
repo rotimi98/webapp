@@ -2,6 +2,8 @@ Good day,
 
 I have completed my assignment. It is a partial implementation. I did implement all the configurations manually except the user data details used in creating the EC2 instances
 
+Application URL: http://rotimi-lab-elb-569718014.ca-central-1.elb.amazonaws.com/
+
 I enabled MFA on my user ID and I created the following…
 
 VPC - Rotimi-Lab-VPC
@@ -120,6 +122,8 @@ It is a PHP error coming from line 21 of the admin-auth.php file. See the sectio
 21                         $conn = mysql_connect("electronics.chntrgvaknsf.ca-central-1.rds.amazonaws.com:3306", "rotimi_daramola", "3M9rJ6K2VhwM") or die(mysql_error());
 
 I think it has to do with the connection details but its being elusive to resolve. I will need more time to figure the tables in the database (electronics)
+
+Application URL is: http://rotimi-lab-elb-569718014.ca-central-1.elb.amazonaws.com/
 
 Edlangley guide lines...
 
